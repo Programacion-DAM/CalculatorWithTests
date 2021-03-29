@@ -28,11 +28,11 @@ public class CalculatorTests {
      *      4. Restar un positivo y un negativo: 4 - (-3) = 7
      *    - Multiplicación
      *      5. Multiplicar dos números: 4 * 3 = 12
-     *      6. Restar un número por 0: 4 * 0 = 0
+     *      6. Multiplicar un número por 0: 4 * 0 = 0
      *    - División
-     *      7. División dos números: 12 * 3 = 4
-     *      8. División de un número entre 0: 4 * 0 = Double.POSITIVE_INFINITE
-     *      9. División de 0 entre 0: 0 * 0 = ZeroByZeroException
+     *      7. División dos números: 12 / 3 = 4
+     *      8. División de un número entre 0: 4 / 0 = Double.POSITIVE_INFINITE
+     *      9. División de 0 entre 0: 0 / 0 = ZeroByZeroException
      *    - Negación
      *      10. Negación de un positivo: neg(12)  = -12
      *      11. Negación de un negativo: neg(-12)  = 12
